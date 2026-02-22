@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "title": "User Model",
+  "objects": [
+    {
+      "name": "User",
+      "fields": null
+    }
+  ],
+  "relationships": []
+}

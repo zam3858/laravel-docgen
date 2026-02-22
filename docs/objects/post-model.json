@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "title": "Post Model",
+  "objects": [
+    {
+      "name": "Post",
+      "fields": null
+    }
+  ],
+  "relationships": []
+}

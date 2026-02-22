@@ -1,0 +1,22 @@
+{
+  "type": "usecase",
+  "title": "Application Use Cases",
+  "actors": [
+    {
+      "name": "Client"
+    }
+  ],
+  "usecases": [
+    {
+      "id": "UC1",
+      "label": "POST /login"
+    }
+  ],
+  "relationships": [
+    {
+      "actor": "Client",
+      "usecase": "UC1",
+      "type": "association"
+    }
+  ]
+}

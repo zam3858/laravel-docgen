@@ -1,0 +1,28 @@
+{
+  "type": "sequence",
+  "title": "POST /login",
+  "participants": [
+    {
+      "alias": "Client",
+      "label": "Client"
+    },
+    {
+      "alias": "AuthController",
+      "label": "AuthController"
+    }
+  ],
+  "messages": [
+    {
+      "from": "Client",
+      "to": "AuthController",
+      "label": "POST /login",
+      "type": "sync"
+    },
+    {
+      "from": "AuthController",
+      "to": "Client",
+      "label": "response",
+      "type": "return"
+    }
+  ]
+}
